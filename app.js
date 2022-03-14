@@ -1,6 +1,6 @@
 function problem(x){
     //your code here
-    if (isNaN(x) ){
+    if (isNaN(x) | x === "" ){
         return "Error"
     } else {
         return (x * 50) + 6;
